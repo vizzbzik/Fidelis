@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fidelis</title>
+  <meta name="description" content="Личный сайт питбайкера: фото, достижения, события и контакты." />
+  <link rel="preload" as="image" href="assets/img/hero.jpg">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar" role="banner">
+    <a class="logo" href="#home" aria-label="На главную">
+      <img src="assets/img/logo.svg" alt="Логотип RiderX" width="44" height="44" />
+      <span>Питбайк Fidelis</span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#about">О нём</a>
+      <a href="#gallery">Галерея</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Баннер">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1>Скорость. Стиль. Адреналин.</h1>
+        <p>Это всё о Fidelis!</p>
+        <a class="btn" href="#gallery">Смотреть галерею</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>О нём</h2>
+        <p>
+          Привет! Я <strong>Кирилл</strong> — питбайкер, фанат кроссовых трасс, прыжков и техничного пилотажа.
+          Люблю чистую скорость и красивые траектории. Здесь — мои лучшие фото, результаты и расписание стартов.
+        </p>
+        <ul class="features">
+          <li><span>🏁</span> Победы и подиумы в локальных сериях</li>
+          <li><span>⚙️</span> Точный настрой мото и стиль</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="gallery" class="section alt">
+      <div class="container">
+        <h2>Галерея</h2>
+        <div class="grid">
+          <a href="IMG_1543.JPG" class="card"><img src="IMG_1543.JPG" alt="Фото 1" /></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 SiteCraft. Сделано с любовью к питбайку.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
